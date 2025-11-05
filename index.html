@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Movie mania</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>Cine Book</h1>
+
+    <!-- Movies list -->
+    <div id="movies" class="movies"></div>
+
+    <!-- Showtimes panel -->
+    <div id="times-panel" class="panel hidden">
+      <h2 id="times-title"></h2>
+      <div id="times-list"></div>
+      <div style="text-align:center;margin-top:12px">
+        <button id="back-to-movies" class="btn ghost small">Back to movies</button>
+      </div>
+    </div>
+
+    <!-- Seats panel -->
+    <div id="seats-panel" class="panel hidden">
+      <h2 id="seats-title"></h2>
+      <div id="seats-grid"></div>
+
+      <div class="actions">
+        <button id="book-btn" class="btn">Book Selected</button>
+        <button id="back-to-times" class="btn ghost small">Back to times</button>
+      </div>
+
+      <div id="info" class="info"></div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
